@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@author "Gabriel Külzer";
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+#colapso{
+  font-size: 20px;
+}
+@media only screen and (max-width : 480px) {
+  #tituloPrincipal{
+    font-size: 1.5em;
+  }
+  #tituloDesenvolvimento{
+    font-size: 2.4em;
+  }
+}
+@media only screen and (max-width : 280px) {
+  #tituloPrincipal{
+    font-size: 1em;
+  }
+  #tituloDesenvolvimento{
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width : 360px) {
+  #tituloPrincipal{
+    font-size: 1.3em;
+  }
+  #tituloDesenvolvimento{
+    font-size: 1em;
+  }
+}
+#back-to-top{
+  background-color: purple;
+  border-radius: 65px;
+  bottom: 14px;
+  box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  z-index: 3;
+}
